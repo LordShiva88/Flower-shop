@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.btn{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.pink{
+    color: #E55473;
+}
+
+/* Banner Section start Here */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #111010;
+    color: #fff;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+}
+.link ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+.banner-container{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 200px 0px 200px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.banner-content{
+    width: 700px;
+}
+/* Main section start Here */
