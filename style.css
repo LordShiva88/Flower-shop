@@ -23,7 +23,13 @@
 .pink{
     color: #E55473;
 }
-
+.primary-title{
+    color: #272727;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
 /* Banner Section start Here */
 .nav-container{
     display: flex;
@@ -59,4 +65,42 @@
 .banner-content{
     width: 700px;
 }
+
 /* Main section start Here */
+.featured-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.featured-description{
+    text-align: center;
+}
+.featured-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+
+.img{
+    margin-top: 20px;
+    width: 310px;
+    height: 400px;
+    background-color: #E55473;
+    padding: 110px 70px 0px 70px;
+    border-radius: 300px 300px 0px 0px;
+}
+li{
+    list-style: none;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.Featured-img1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.Featured-img2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.Featured-img3{
+    background: rgba(71, 125, 17, 0.15);
+}
