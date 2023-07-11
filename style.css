@@ -4,7 +4,6 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
 .primary-description{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -30,6 +29,7 @@
     margin-bottom: 20px;
     margin-top: 100px;
 }
+
 /* Banner Section start Here */
 .nav-container{
     display: flex;
@@ -50,6 +50,8 @@
     font-size: 18px;
     color: #ffffff;
 }
+
+/* banner Container start here */
 .banner-container{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -152,6 +154,23 @@ li{
 .instagram-images img{
     padding-right: 35px;
 }
+
+/* Bonus offer section */
+
+.offer{
+    background: radial-gradient(white, rgb(233, 156, 169));
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 100px auto;
+    align-items: center;
+}
+.margin{
+    margin-top: 20px;
+}
+
 /* contact section */
 .contact-section{
     width: 80%;
